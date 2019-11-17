@@ -1,0 +1,56 @@
+
+.normal {
+  font-family: Georgia, sans-serif;
+}
+
+.welcome {
+  height: 328px;
+  background: url(../assets/yay.jpg) no-repeat center 0;
+  background-size: 388px 328px;
+}
+
+.list {
+  font-size: 1.2em;
+  margin-top: 1.8em;
+  list-style: none;
+  line-height: 1.5em;
+}
+
+.list code {
+  background: #f7f7f7;
+}
+:global(.ant-layout-content) {
+    padding: 0!important;
+}
+
+:global(.ant-carousel .slick-slide) {
+    text-align: center;
+    height: 450px;
+    line-height: 450px;
+    background: #364d79;
+    overflow: hidden;
+}
+:global(.ant-carousel .slick-slide div) {
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+:global(.ant-carousel .slick-slide h3) {
+    color: #fff;
+}
+:global(.ant-carousel .slick-dots li button) {
+    height: 5px;
+}
+.slide1 {
+    background-image: url(http://admin.rockbundartmuseum.org/upload/photo_db/2018/06/29/201806291251094325/1680_840/201806291251094325.jpg);
+}
+.slide2 {
+    background-image: url(http://admin.rockbundartmuseum.org/upload/photo_db/2019/05/29/201905291359328027/1680_840/201905291359328027.jpg);
+}
+.slide3 {
+    background-image: url(http://admin.rockbundartmuseum.org/upload/photo_db/2018/06/24/201806242233333658/1680_840/201806242233333658.jpg);
+}
+.slide4 {
+    background-image: url(http://admin.rockbundartmuseum.org/upload/photo_db/2018/09/28/201809281120175272/1680_840/201809281120175272.jpg);
+}
+
